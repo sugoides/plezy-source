@@ -93,12 +93,12 @@ async function generateSource() {
     // Source Metadata
     // Ideally these would be configurable, but for now we'll use defaults
     // or try to infer from the environment if available.
-    const repoFullName = process.env.GITHUB_REPOSITORY || 'username/repository';
+    const repoFullName = process.env.GITHUB_REPOSITORY;
     const [owner, repo] = repoFullName.split('/');
 
     const sourceData = {
-        name: process.env.SOURCE_NAME || `${repo} AltStore Source`,
-        identifier: process.env.SOURCE_IDENTIFIER || `com.github.${owner}.${repo}`,
+        name: process.env.SOURCE_NAME,
+        identifier: process.env.SOURCE_IDENTIFIER,
         subtitle: "Automatically updated apps",
         description: "Auto-generated AltStore source using GitHub Actions",
         iconURL: `https://raw.githubusercontent.com/${repoFullName}/main/assets/icon.png`,

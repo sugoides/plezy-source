@@ -2,9 +2,9 @@
   {
     "name": "Plezy",
     "bundleIdentifier": "com.plezy.app",
-    "developerName": "Plezy Team",
+    "developerName": "edde746",
     "subtitle": "Stream your favorite content",
-    "localizedDescription": "Plezy is a high-performance streaming app for iOS.",
+    "localizedDescription": "Plezy is a high-performance Plex client",
     "iconURL": "https://raw.githubusercontent.com/edde746/plezy/refs/heads/main/assets/plezy.png",
     "tintColor": "#FF0000",
     "githubRepo": "edde746/plezy",

@@ -2,6 +2,17 @@
 
 This repository automatically generates an AltStore source by fetching the latest releases from GitHub repositories.
 
+## Setup Instructions
+
+### 1. Enable GitHub Pages
+To fix the `HttpError: Not Found` in GitHub Actions, you must enable GitHub Pages:
+1. Go to your repository on GitHub.
+2. Click **Settings** > **Pages**.
+3. Under **Build and deployment** > **Source**, select **GitHub Actions**.
+
+### 2. Configure Secrets (Optional)
+If you are tracking private repositories or hitting rate limits, add a `GITHUB_TOKEN` to your repository secrets.
+
 ## How it works
 
 1. The list of apps is maintained in `sources.json`.
