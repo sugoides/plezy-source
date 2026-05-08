@@ -1,10 +1,10 @@
 [
   {
     "name": "Plezy",
-    "bundleIdentifier": "com.plezy.app",
+    "bundleIdentifier": "com.edde746.plezy",
     "developerName": "edde746",
     "subtitle": "Stream your favorite content",
-    "localizedDescription": "Plezy is a high-performance Plex client",
+    "localizedDescription": "A modern Plex client for desktop and mobile. Built with Flutter for native performance and a clean interface.",
     "iconURL": "https://raw.githubusercontent.com/edde746/plezy/refs/heads/main/assets/plezy.png",
     "tintColor": "#FF0000",
     "githubRepo": "edde746/plezy",

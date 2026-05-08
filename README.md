@@ -1,6 +1,6 @@
-# AltStore Source Generator
+# Plezy AltStore Source
 
-This repository automatically generates an AltStore source by fetching the latest releases from GitHub repositories.
+This repository automatically generates and maintains the official AltStore source for **Plezy**, fetching the latest releases from [edde746/plezy](https://github.com/edde746/plezy).
 
 ## Setup Instructions
 
