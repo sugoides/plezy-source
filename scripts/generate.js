@@ -101,8 +101,8 @@ async function generateSource() {
         identifier: process.env.SOURCE_IDENTIFIER || `com.edde746.plezy-source`,
         subtitle: process.env.SOURCE_SUBTITLE || "Plezy AltStore Source",
         description: process.env.SOURCE_DESCRIPTION || "Plezy AltStore Source",
-        iconURL: `https://raw.githubusercontent.com/edde746/plezy/refs/heads/main/assets/plezy.svg`,
-        website: `https://github.com/${repoFullName}`,
+        iconURL: `https://raw.githubusercontent.com/edde746/plezy/refs/heads/main/assets/plezy.png`,
+        website: `https://github.com/edde746/plezy`,
         apps: apps
     };
 
