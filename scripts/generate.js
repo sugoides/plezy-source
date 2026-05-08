@@ -99,9 +99,9 @@ async function generateSource() {
     const sourceData = {
         name: process.env.SOURCE_NAME,
         identifier: process.env.SOURCE_IDENTIFIER,
-        subtitle: "Automatically updated apps",
-        description: "Auto-generated AltStore source using GitHub Actions",
-        iconURL: `https://raw.githubusercontent.com/${repoFullName}/main/assets/icon.png`,
+        subtitle: "Plezy AltStore Source",
+        description: "Plezy AltStore Source",
+        iconURL: `https://raw.githubusercontent.com/edde746/plezy/refs/heads/main/assets/plezy.png`,
         website: `https://github.com/${repoFullName}`,
         apps: apps
     };
