@@ -97,10 +97,10 @@ async function generateSource() {
     const [owner, repo] = repoFullName.split('/');
 
     const sourceData = {
-        name: process.env.SOURCE_NAME,
-        identifier: process.env.SOURCE_IDENTIFIER,
-        subtitle: "Plezy AltStore Source",
-        description: "Plezy AltStore Source",
+        name:  process.env.SOURCE_NAME || `Plezy AltStore Source`,
+        identifier: process.env.SOURCE_IDENTIFIER || `com.edde746.plezy-source`,
+        subtitle: process.env.SOURCE_SUBTITLE || "Plezy AltStore Source",
+        description: process.env.SOURCE_DESCRIPTION || "Plezy AltStore Source",
         iconURL: `https://raw.githubusercontent.com/edde746/plezy/refs/heads/main/assets/plezy.png`,
         website: `https://github.com/${repoFullName}`,
         apps: apps
