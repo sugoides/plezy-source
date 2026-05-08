@@ -5,7 +5,7 @@
     "developerName": "edde746",
     "subtitle": "Stream your favorite content",
     "localizedDescription": "Plezy is a high-performance Plex client",
-    "iconURL": "https://raw.githubusercontent.com/edde746/plezy/refs/heads/main/assets/plezy.png",
+    "iconURL": "https://raw.githubusercontent.com/edde746/plezy/refs/heads/main/assets/plezy.svg",
     "tintColor": "#FF0000",
     "githubRepo": "edde746/plezy",
     "screenshotURLs": [],
