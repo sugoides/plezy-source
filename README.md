@@ -5,7 +5,6 @@ This repository automatically generates and maintains the official AltStore sour
 ## Setup Instructions
 
 ### 1. Enable GitHub Pages
-To fix the `HttpError: Not Found` in GitHub Actions, you must enable GitHub Pages:
 1. Go to your repository on GitHub.
 2. Click **Settings** > **Pages**.
 3. Under **Build and deployment** > **Source**, select **GitHub Actions**.
